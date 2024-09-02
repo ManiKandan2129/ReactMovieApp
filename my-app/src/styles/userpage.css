@@ -1,0 +1,87 @@
+.c-img{
+    height: 100%;
+    width:200px;
+    object-fit: fill;
+    
+}
+.card-body{
+    display: flex;
+    gap: 25px;
+    padding: 0%;
+    color: white;
+    padding-right: 15px;
+    
+}
+.movie-card{
+    background-color:#0000007e;
+    margin-top: 20px; 
+    color: white;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
+}
+.card-header{
+    border-bottom: solid 1px rgba(37,37,37,1);
+}
+span{
+    color: #ffc107;
+}
+.card-data{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.data{
+    display: flex;
+    justify-content: space-between;
+}
+.date{
+    margin-right: 10px;
+}
+.card-btns2{
+    display: flex;
+    gap: 10px;
+}
+.offcanvas{
+    background-color:rgba(37,37,37,1) ;
+    color: white;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
+}
+.offcanvas-header{
+    background-color:#0000007e ;
+}
+.btn-close{
+   background-color: white;
+}
+#accordion{
+    background-color: rgba(37,37,37,1);
+    color: white;
+    border-color:#0000007e ;
+}
+#accord-btns{
+    height: 30px;
+    width: 60px;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+#bg-nested-dropdown, #drop,.dropdown-menu,#select{
+    background-color: #eb455f;
+    color: white;
+    border: none;
+    width: 60px;
+    
+}
+.rate-btn{
+    background-color: #eb455f;
+    margin-top: 5px;
+    border-color: #eb455f;
+}
+.accordion{
+    --bs-accordion-bg:#000000;
+    --bs-accordion-btn-color: white;
+}
+.card-header{
+    color: #ffc107;
+}
+#font{
+    color: #ffc107;
+    font-size: 15px;
+    margin-bottom: 1px;
+}

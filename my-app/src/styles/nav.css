@@ -1,0 +1,24 @@
+.color-nav{
+   background-color: #0000007e;
+   box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
+}
+h5{
+    color: white;
+}
+.nav-btns{
+    display: flex;
+    gap: 10px;
+}
+#title{
+    color: #ffc107;
+}
+.logo2{
+    height: 40px;
+}
+
+@media only screen and (max-width: 480px) {
+    #btn1{
+        padding: 4px 10px;
+        font-size: 10px;
+    }
+  }
